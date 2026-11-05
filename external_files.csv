@@ -1,4 +1,5 @@
 Path in MiSTer, URL, Size in bytes (optional but recommended), MD5 Hash (optional but recommended), Filter Terms (optional)
+games/hbmame/mk2.zip,https://archive.org/download/mortalkombatiiplus/mk2.zip,13876098,87b32f6a959f495fa6fbb0e8b980249b,
 games/mame/arlingtn.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/arlingtn.zip,449471,00c3649cba2d5959ff68e101f0216c08,
 games/mame/bowlrama.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/bowlrama.zip,163766,016fc17c61382004ec6d328bb9dcb281,
 games/mame/capbowl.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/capbowl.zip,351937,a1645893304122c7fe73a2455b81d377,
@@ -11,7 +12,11 @@ games/mame/guardian.zip,https://archive.org/download/mame-roms-merged_/MAME%20RO
 games/mame/hiimpact.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/hiimpact.zip,1784319,a205422b3660a540c72349c7d5771f6f,
 games/mame/hstennis.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/hstennis.zip,497744,89d824040f09d3bdad2ec50e529f3ab6,
 games/mame/hydra.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/hydra.zip,2491362,76c31e4ceb8ece7a4b71ecb826cf8d1f,
+games/mame/jdreddp.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/jdreddp.zip,6872137,7dc7339bcb554a6b424cc8182f204201,
+games/mame/mk2.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/mk2.zip,17220209,0391c3bf75ce5f07539bf2652692b539,
 games/mame/mk.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/mk.zip,31086827,5a2140d3a46c3844c505db1d6b066d96,
+games/mame/nbajam.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/nbajam.zip,13883644,36edaef76b432b415b7937a9912480c7,
+games/mame/nbajamte.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/nbajamte.zip,8101731,4abb9d375d90adc4e911e4e1f88e609f,
 games/mame/neckneck.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/neckneck.zip,489917,27627e1aeb88da7749958180cb1acbb4,
 games/mame/ninclown.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/ninclown.zip,1221733,3a8e6dd77fb2eb90a777f7c2ab8b0db0,
 games/mame/peggle.zip,https://archive.org/download/mame-roms-merged_/MAME%20ROMs%20%28merged%29/peggle.zip,336413,bfc49dc96b384a9ce70a581ce82fb182,
