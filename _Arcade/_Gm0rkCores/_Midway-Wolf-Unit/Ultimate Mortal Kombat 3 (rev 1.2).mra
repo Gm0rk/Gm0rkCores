@@ -1,0 +1,163 @@
+<misterromdescription>
+	<name>Ultimate Mortal Kombat 3 (rev 1.2)</name>
+	<mratimestamp>20261126</mratimestamp>
+	<mameversion>0289</mameversion>
+	<setname>umk3</setname>
+	<year>1994</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Fighter / Versus</category>
+	<rbf>Arcade-Midway-Wolf-Unit</rbf>
+	<remark>2 players</remark>
+	<buttons names="High Punch,Low Punch,High Kick,Low Kick,Block,Run,Start,Coin,Test,Pause" default="Y,B,X,A,R,L,Start,Select,-,-"/>
+	<romstruct>
+0x000000 program ROM (1 MB, 16-bit little endian)
+0x100000 DCS sound ROMs (4 x 1 MB, MAME region bytes 0, 2, 4, ...)
+0x500000 security PIC (8 KB)
+0x502000 graphics (5 x 4 MB slots of MAME's video region: 0 1 2 3 -- 5 -- --)
+0x1902000 program ROM again with the cut-content patches (OSD)
+	</romstruct>
+	<rom index="1">
+		<part>01 00 01 02 03 FF 04 FF FF FF 81 0C 96 60 01 05 27 62 EE BD 01 00 C0 00 00 00 00 00 01 11 80 00 A4 EF 01 80 FB E1 01 80 29 E2 01 80 41 E2 01 80 BA EF 01 80 13 E2 01 80 03 D3 01 80 00 00 00 00 3C E7 01 80 0E E7 01 80 F6 E6 01 80 54 E7 01 80 26 E7 01 80 6C E7 01 80 03 D3 01 80 00 00 00 00 48 E8 01 80 04 E8 01 80 EC E7 01 80 60 E8 01 80 30 E8 01 80 1A E8 01 80 03 D3 01 80 00 00 00 00 52 E6 01 80 98 E6 01 80 3C E6 01 80 6A E6 01 80 80 E6 01 80 24 E6 01 80 03 D3 01 80 00 00 00 00 D8 E4 01 80 EE E4 01 80 C8 E5 01 80 06 E5 01 80 1C E5 01 80 DE E5 01 80 03 D3 01 80 00 00 00 00 A6 E8 01 80 78 E8 01 80 EB E8 01 80 8E E8 01 80 2F E9 01 80 5D E9 01 80 03 D3 01 80 00 00 00 00 F0 E3 01 80 DA E3 01 80 1E E4 01 80 B5 E3 01 80 71 E3 01 80 87 E3 01 80 03 D3 01 80 00 00 00 00 E5 E2 01 80 CF E2 01 80 87 E2 01 80 9F E2 01 80 71 E2 01 80 B7 E2 01 80 03 D3 01 80 00 00 00 00 59 E3 01 80 FD E2 01 80 43 E3 01 80 2B E3 01 80 59 E2 01 80 13 E3 01 80 03 D3 01 80 00 00 00 00 D1 EA 01 80 A3 EA 01 80 73 EA 01 80 8B EA 01 80 5D EA 01 80 B9 EA 01 80 03 D3 01 80 00 00 00 00 25 EF 01 80 C9 EE 01 80 DF EE 01 80 3D EE 01 80 B1 EE 01 80 0D EF 01 80 03 D3 01 80 00 00 00 00 BB E9 01 80 A3 E9 01 80 D1 E9 01 80 8B E9 01 80 2D EA 01 80 FF E9 01 80 03 D3 01 80 00 00 00 00 05 EC 01 80 1B EC 01 80 B5 ED 01 80 ED EB 01 80 49 EC 01 80 99 EE 01 80 03 D3 01 80 00 00 00 00 49 EB 01 80 31 EB 01 80 5F EB 01 80 19 EB 01 80 01 EB 01 80 8D EB 01 80 03 D3 01 80 00 00 00 00 3F E1 01 80 27 E1 01 80 B5 DF 01 80 00 00 00 00 57 E1 01 80 6D E1 01 80 03 D3 01 80 00 00 00 00 2B DF 01 80 59 DF 01 80 6F DF 01 80 87 DF 01 80 CF DE 01 80 41 DF 01 80 03 D3 01 80 00 00 00 00 A7 DD 01 80 03 DE 01 80 19 DE 01 80 47 DE 01 80 8B DE 01 80 A1 DE 01 80 03 D3 01 80 00 00 00 00 33 DD 01 80 EF DC 01 80 05 DD 01 80 61 DD 01 80 C1 DC 01 80 D7 DC 01 80 03 D3 01 80 00 00 00 00 3F DB 01 80 F9 DA 01 80 C9 DA 01 80 0F DB 01 80 27 DB 01 80 9B DA 01 80 03 D3 01 80 00 00 00 00 F5 DB 01 80 39 DC 01 80 0B DC 01 80 4F DC 01 80 65 DC 01 80 A9 DC 01 80 03 D3 01 80 00 00 00 00 75 D2 01 80 A3 D2 01 80 BB D2 01 80 00 00 00 00 00 00 00 00 00 00 00 00 03 D3 01 80 00 00 00 00 36 E4 01 80 00 00 00 00 4C E4 01 80 00 00 00 00 00 00 00 00 00 00 00 00 03 D3 01 80 00 00 00 00 00 00 00 00 A3 D2 01 80 C9 DA 01 80 00 00 00 00 00 00 00 00 9B DA 01 80 03 D3 01 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C7 5D 03 C0 1F 00 00 00</part>
+	</rom>
+	<rom index="0" zip="umk3.zip" md5="a29c1e521b7037a954ff4795ac8c2f56">
+		<!-- program ROM -->
+		<interleave output="16">
+			<part crc="712b4db6" name="l1.2_mortal_kombat_3_u54_ultimate.u54" map="01"/>
+			<part crc="6d301faf" name="l1.2_mortal_kombat_3_u63_ultimate.u63" map="10"/>
+		</interleave>
+		<!-- DCS sound ROMs -->
+		<part crc="3838cfe5" name="l2.0_mortal_kombat_3_u2_ultimate.u2"/>
+		<part crc="856fe411" name="l1_mortal_kombat_3_u3_music_spch.u3"/>
+		<part crc="428a406f" name="l1_mortal_kombat_3_u4_music_spch.u4"/>
+		<part crc="3b98a09f" name="l1_mortal_kombat_3_u5_music_spch.u5"/>
+		<!-- security PIC -->
+		<part crc="4f425218" name="463_mk3_ultimate.u64"/>
+		<part repeat="0xFF7">00</part>
+		<!-- graphics -->
+		<interleave output="32">
+			<part crc="79b94667" name="l1_mortal_kombat_3_u133_game_rom.u133" map="0001"/>
+			<part crc="13e95228" name="l1_mortal_kombat_3_u132_game_rom.u132" map="0010"/>
+			<part crc="41001e30" name="l1_mortal_kombat_3_u131_game_rom.u131" map="0100"/>
+			<part crc="49379dd7" name="l1_mortal_kombat_3_u130_game_rom.u130" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a8b41803" name="l1_mortal_kombat_3_u129_game_rom.u129" map="0001"/>
+			<part crc="b410d72f" name="l1_mortal_kombat_3_u128_game_rom.u128" map="0010"/>
+			<part crc="bd985be7" name="l1_mortal_kombat_3_u127_game_rom.u127" map="0100"/>
+			<part crc="e7c32cf4" name="l1_mortal_kombat_3_u126_game_rom.u126" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9a52227e" name="l1_mortal_kombat_3_u125_game_rom.u125" map="0001"/>
+			<part crc="5c750ebc" name="l1_mortal_kombat_3_u124_game_rom.u124" map="0010"/>
+			<part crc="f0ab88a8" name="l1_mortal_kombat_3_u123_game_rom.u123" map="0100"/>
+			<part crc="9b87cdac" name="l1_mortal_kombat_3_u122_game_rom.u122" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="cc4b95db" name="umk-u121.bin" map="0001"/>
+			<part crc="1c8144cd" name="umk-u120.bin" map="0010"/>
+			<part crc="5f10c543" name="umk-u119.bin" map="0100"/>
+			<part crc="de0c4488" name="umk-u118.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="99d74a1e" name="umk-u113.bin" map="0001"/>
+			<part crc="b5a46488" name="umk-u112.bin" map="0010"/>
+			<part crc="a87523c8" name="umk-u111.bin" map="0100"/>
+			<part crc="0038f205" name="umk-u110.bin" map="1000"/>
+		</interleave>
+		<!-- program ROM again, patched below: the OSD's cut-content option -->
+		<interleave output="16">
+			<part crc="712b4db6" name="l1.2_mortal_kombat_3_u54_ultimate.u54" map="01"/>
+			<part crc="6d301faf" name="l1.2_mortal_kombat_3_u63_ultimate.u63" map="10"/>
+		</interleave>
+		<patch offset="0x196D830">5F 71</patch>
+		<patch offset="0x196D834">6F 71</patch>
+		<patch offset="0x197287C">00 48 DF FF</patch>
+		<patch offset="0x1972C9C">47 01 07 0B 60 00 EC A2 80 C0 60 18 9C FF 5F 0D 60 64 9B FF 00 03</patch>
+		<patch offset="0x19C0900">50 36 B6 FF 30 C3 B6 FF 20 4B B8 FF 02 02 66 00 68 00 0B 00 02 02 0D 00 FD FF 06 00 B7 00 0C 0C A0 6C B8 FF 80 5D B7 FF F0 6E B8 FF 80 6D B8 FF C0 81 B7 FF E0 6F B8 FF E0 6D B8 FF 20 89 B7 FF 70 70 B8 FF 10 6D B8 FF 50 40 B7 FF 40 72 B8 FF 00 4D B8 FF F0 53 B8 FF 00 00 00 00 40 4D B8 FF 50 53 B8 FF 00 00 00 00 C0 56 B8 FF 50 57 B8 FF 00 00 00 00 C0 4D B8 FF 20 52 B8 FF 00 00 00 00 60 4E B8 FF D0 4F B8 FF 00 00 00 00 E0 4E B8 FF B0 4F B8 FF 00 00 00 00 40 4C B8 FF 40 4A B8 FF 00 00 00 00 B0 4B B8 FF 60 4F B8 FF 00 00 00 00 70 6E B8 FF 00 00 00 00 A0 73 B8 FF 00 00 00 00</patch>
+	</rom>
+	<nvram index="2" size="49152"/>
+	<cheats size="8" max="16">
+		<cheat name="Always Krispy! Easter Egg">
+			9AE3 FA0F 0003 FFFF
+			AEE3 FA0F 0003 FFFF
+		</cheat>
+		<cheat name="Always Play Galaxian">
+			2E62 1000 6400 FF00
+		</cheat>
+		<cheat name="Animality Needs No Mercy">
+			B162 1000 0100 FF00
+		</cheat>
+		<cheat name="Bloody Floors">
+			F312 FB0F 0001 FFFF
+		</cheat>
+		<cheat name="Enable Classic Sub-Zero">
+			2062 1000 0100 FFFF
+		</cheat>
+		<cheat name="Enable Ermac">
+			1F62 1000 0100 FFFF
+		</cheat>
+		<cheat name="Enable Mileena">
+			1E62 1000 0100 FFFF
+		</cheat>
+		<cheat name="Fast Uppercut Recovery">
+			BE62 1000 0100 FF00
+		</cheat>
+		<cheat name="Hiddens on Char Select">
+			1168 FA0F 0003 FFFF
+			456F FA0F 0003 FFFF
+			4C6F FA0F 0003 FFFF
+			536F FA0F 0003 FFFF
+		</cheat>
+		<cheat name="Hit Anywhere (P1 + P2)">
+			90FF FA0F 04C0 FFFF
+		</cheat>
+		<cheat name="Infinite Fatality Time">
+			D512 F80F F2C0 FFFF
+		</cheat>
+		<cheat name="Infinite Time">
+			C60D F80F D7C0 FFFF
+			C70D F80F 0003 FFFF
+		</cheat>
+		<cheat name="No Blocking">
+			B062 1000 0100 FF00
+		</cheat>
+		<cheat name="No Friend/Babality Limits">
+			4962 1000 0000 FFFF
+			4A62 1000 0000 FFFF
+		</cheat>
+		<cheat name="No Powerbars">
+			1262 1000 0000 FF00
+		</cheat>
+		<cheat name="No Throwing">
+			AE62 1000 0100 FF00
+		</cheat>
+		<cheat name="P1 Drain all Energy Now!">
+			A660 1080 0000 FF00
+		</cheat>
+		<cheat name="P1 Infinite Energy">
+			A660 1000 A600 FF00
+		</cheat>
+		<cheat name="P1 Infinite Turbo">
+			A760 1000 3000 FF00
+		</cheat>
+		<cheat name="P2 Drain all Energy Now!">
+			6161 1080 0000 FF00
+		</cheat>
+		<cheat name="P2 Infinite Energy">
+			6161 1000 A600 FF00
+		</cheat>
+		<cheat name="P2 Infinite Turbo">
+			6261 1000 3000 FF00
+		</cheat>
+		<cheat name="Play as Human Smoke">
+			6327 F80F 4A49 FFFF
+		</cheat>
+		<cheat name="Single Opponent Endurance">
+			CC09 F80F 0BC0 FFFF
+			260C F80F 0BC0 FFFF
+		</cheat>
+		<cheat name="Unlimited Run">
+			BF62 1000 0100 FF00
+		</cheat>
+	</cheats>
+</misterromdescription>

@@ -1,0 +1,75 @@
+<misterromdescription>
+	<name>Ultimate Mortal Kombat 3 (Plus Beta II, hack)</name>
+	<mratimestamp>20261126</mratimestamp>
+	<setname>umk3p</setname>
+	<year>1994</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Fighter / Versus</category>
+	<rbf>Arcade-Midway-Wolf-Unit</rbf>
+	<remark>2 players</remark>
+	<buttons names="High Punch,Low Punch,High Kick,Low Kick,Block,Run,Start,Coin,Test,Pause" default="Y,B,X,A,R,L,Start,Select,-,-"/>
+	<romstruct>
+0x000000 program ROM (1 MB, 16-bit little endian)
+0x100000 DCS sound ROMs (4 x 1 MB, MAME region bytes 0, 2, 4, ...)
+0x500000 security PIC (8 KB)
+0x502000 graphics (6 x 4 MB slots of MAME's video region: 0 1 2 3 4 5 -- --)
+	</romstruct>
+	<rom index="1">
+		<part>01 00 01 02 03 04 05 FF FF FF 00 00 96 60 01 1F 27 62 EE BD 01 00 C0 F2 78 06 00 C0 00 00 00 00 A4 EF 01 80 FB E1 01 80 29 E2 01 80 41 E2 01 80 BA EF 01 80 13 E2 01 80 03 D3 01 80 00 00 00 00 3C E7 01 80 0E E7 01 80 F6 E6 01 80 54 E7 01 80 26 E7 01 80 6C E7 01 80 03 D3 01 80 00 00 00 00 48 E8 01 80 04 E8 01 80 EC E7 01 80 60 E8 01 80 30 E8 01 80 1A E8 01 80 03 D3 01 80 00 00 00 00 52 E6 01 80 98 E6 01 80 3C E6 01 80 6A E6 01 80 80 E6 01 80 24 E6 01 80 03 D3 01 80 00 00 00 00 D8 E4 01 80 EE E4 01 80 C8 E5 01 80 06 E5 01 80 1C E5 01 80 DE E5 01 80 03 D3 01 80 00 00 00 00 A6 E8 01 80 78 E8 01 80 EB E8 01 80 8E E8 01 80 2F E9 01 80 5D E9 01 80 03 D3 01 80 00 00 00 00 F0 E3 01 80 DA E3 01 80 1E E4 01 80 B5 E3 01 80 71 E3 01 80 87 E3 01 80 03 D3 01 80 00 00 00 00 E5 E2 01 80 CF E2 01 80 87 E2 01 80 9F E2 01 80 71 E2 01 80 B7 E2 01 80 03 D3 01 80 00 00 00 00 59 E3 01 80 FD E2 01 80 43 E3 01 80 2B E3 01 80 59 E2 01 80 13 E3 01 80 03 D3 01 80 00 00 00 00 D1 EA 01 80 A3 EA 01 80 73 EA 01 80 8B EA 01 80 5D EA 01 80 B9 EA 01 80 03 D3 01 80 00 00 00 00 25 EF 01 80 C9 EE 01 80 DF EE 01 80 3D EE 01 80 B1 EE 01 80 0D EF 01 80 03 D3 01 80 00 00 00 00 BB E9 01 80 A3 E9 01 80 D1 E9 01 80 8B E9 01 80 2D EA 01 80 FF E9 01 80 03 D3 01 80 00 00 00 00 05 EC 01 80 1B EC 01 80 DF 04 06 80 ED EB 01 80 49 EC 01 80 3D 43 06 80 03 D3 01 80 00 00 00 00 49 EB 01 80 31 EB 01 80 5F EB 01 80 19 EB 01 80 01 EB 01 80 8D EB 01 80 03 D3 01 80 00 00 00 00 3F E1 01 80 27 E1 01 80 B5 DF 01 80 00 00 00 00 57 E1 01 80 6D E1 01 80 03 D3 01 80 00 00 00 00 2B DF 01 80 59 DF 01 80 6F DF 01 80 87 DF 01 80 CF DE 01 80 41 DF 01 80 03 D3 01 80 00 00 00 00 A7 DD 01 80 03 DE 01 80 19 DE 01 80 47 DE 01 80 8B DE 01 80 A1 DE 01 80 03 D3 01 80 00 00 00 00 00 00 00 00 EF DC 01 80 05 DD 01 80 61 DD 01 80 C1 DC 01 80 D7 DC 01 80 03 D3 01 80 00 00 00 00 3F DB 01 80 F9 DA 01 80 C9 DA 01 80 0F DB 01 80 27 DB 01 80 E2 C4 01 80 03 D3 01 80 00 00 00 00 F5 DB 01 80 39 DC 01 80 0B DC 01 80 4F DC 01 80 65 DC 01 80 A9 DC 01 80 03 D3 01 80 00 00 00 00 75 D2 01 80 A3 D2 01 80 79 62 06 80 8F 62 06 80 F1 60 06 80 71 F6 05 80 03 D3 01 80 00 00 00 00 69 F0 07 80 95 F0 07 80 7F F0 07 80 00 00 00 00 4D 04 06 80 41 F7 05 80 03 D3 01 80 00 00 00 00 21 2A 06 80 A3 D2 01 80 C9 DA 01 80 00 00 00 00 37 2A 06 80 9B DA 01 80 03 D3 01 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 C7 5D 03 C0 1F 00 00 00</part>
+	</rom>
+	<!-- HBMAME set: the zip goes in games/hbmame, not games/mame -->
+	<rom index="0" zip="/hbmame/umk3.zip" md5="cc13b07088e78cd5c08b8438d3fb1e58">
+		<!-- program ROM -->
+		<interleave output="16">
+			<part crc="54a5359f" name="umk3plus20220307/umk3plus20220307.u54" map="01"/>
+			<part crc="fb83320d" name="umk3plus20220307/umk3plus20220307.u63" map="10"/>
+		</interleave>
+		<!-- DCS sound ROMs -->
+		<part crc="2c7f4a1d" name="umk3plus20220307/umk3plus20220307.u2"/>
+		<part crc="856fe411" name="l1_mortal_kombat_3_u3_music_spch.u3"/>
+		<part crc="428a406f" name="l1_mortal_kombat_3_u4_music_spch.u4"/>
+		<part crc="3b98a09f" name="l1_mortal_kombat_3_u5_music_spch.u5"/>
+		<!-- security PIC -->
+		<part crc="4f425218" name="463_mk3_ultimate.u64"/>
+		<part repeat="0xFF7">00</part>
+		<!-- graphics -->
+		<interleave output="32">
+			<part crc="79b94667" name="l1_mortal_kombat_3_u133_game_rom.u133" map="0001"/>
+			<part crc="13e95228" name="l1_mortal_kombat_3_u132_game_rom.u132" map="0010"/>
+			<part crc="41001e30" name="l1_mortal_kombat_3_u131_game_rom.u131" map="0100"/>
+			<part crc="49379dd7" name="l1_mortal_kombat_3_u130_game_rom.u130" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a8b41803" name="l1_mortal_kombat_3_u129_game_rom.u129" map="0001"/>
+			<part crc="b410d72f" name="l1_mortal_kombat_3_u128_game_rom.u128" map="0010"/>
+			<part crc="bd985be7" name="l1_mortal_kombat_3_u127_game_rom.u127" map="0100"/>
+			<part crc="e7c32cf4" name="l1_mortal_kombat_3_u126_game_rom.u126" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9a52227e" name="l1_mortal_kombat_3_u125_game_rom.u125" map="0001"/>
+			<part crc="5c750ebc" name="l1_mortal_kombat_3_u124_game_rom.u124" map="0010"/>
+			<part crc="f0ab88a8" name="l1_mortal_kombat_3_u123_game_rom.u123" map="0100"/>
+			<part crc="9b87cdac" name="l1_mortal_kombat_3_u122_game_rom.u122" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="cc4b95db" name="umk-u121.bin" map="0001"/>
+			<part crc="1c8144cd" name="umk-u120.bin" map="0010"/>
+			<part crc="5f10c543" name="umk-u119.bin" map="0100"/>
+			<part crc="de0c4488" name="umk-u118.bin" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="52ee547e" name="umk3plus20190921/umk3plus.u117" map="0001"/>
+			<part crc="f6df5c98" name="umk3plus20190921/umk3plus.u116" map="0010"/>
+			<part crc="e003a51b" name="umk3plus20190921/umk3plus.u115" map="0100"/>
+			<part crc="b8504598" name="umk3plus20190921/umk3plus.u114" map="1000"/>
+		</interleave>
+		<part repeat="0x200000">00</part>
+		<interleave output="32">
+			<part crc="99d74a1e" name="umk-u113.bin" map="0001"/>
+			<part crc="b5a46488" name="umk-u112.bin" map="0010"/>
+			<part crc="a87523c8" name="umk-u111.bin" map="0100"/>
+			<part crc="0038f205" name="umk-u110.bin" map="1000"/>
+		</interleave>
+	</rom>
+	<nvram index="2" size="49152"/>
+</misterromdescription>
