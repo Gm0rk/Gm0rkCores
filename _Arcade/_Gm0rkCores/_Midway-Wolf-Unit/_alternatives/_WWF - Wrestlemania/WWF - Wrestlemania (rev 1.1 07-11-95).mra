@@ -1,0 +1,193 @@
+<misterromdescription>
+	<name>WWF: Wrestlemania (rev 1.1 07/11/95)</name>
+	<mratimestamp>20261118</mratimestamp>
+	<mameversion>0289</mameversion>
+	<setname>wwfmaniac</setname>
+	<year>1995</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Fighter / Versus</category>
+	<rbf>Arcade-Midway-Wolf-Unit</rbf>
+	<remark>2 players</remark>
+	<buttons names="Punch,Defense,Power Punch,Kick,Power Kick,Start,Coin,Test,Pause" default="Y,R,X,B,A,Start,Select,-,-"/>
+	<romstruct>
+0x000000 program ROM (1 MB, 16-bit little endian)
+0x100000 DCS sound ROMs (4 x 1 MB, MAME region bytes 0, 2, 4, ...)
+0x500000 security PIC (8 KB)
+0x502000 graphics (4 x 4 MB slots of MAME's video region: 0 1 2 3 -- -- -- --)
+	</romstruct>
+	<rom index="1">
+		<part>02 00 01 02 03 FF FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 BA C5 00 A6 71 01 00 00 00 00 00 00</part>
+	</rom>
+	<rom index="0" zip="wwfmaniac.zip|wwfmania.zip" md5="3780e3e0c92477ba316135c80aae2fd3" type="merged">
+		<!-- program ROM -->
+		<interleave output="16">
+			<part crc="ae1a3195" name="wwf_game_rom_l1.10.u54" map="01"/>
+			<part crc="d809eb60" name="wwf_game_rom_l1.10.u63" map="10"/>
+		</interleave>
+		<!-- DCS sound ROMs -->
+		<part crc="a9acb250" name="wwf_music-spch_l1.u2"/>
+		<part crc="9442b6c9" name="wwf_music-spch_l1.u3"/>
+		<part crc="cee78fac" name="wwf_music-spch_l1.u4"/>
+		<part crc="5b31fd40" name="wwf_music-spch_l1.u5"/>
+		<!-- security PIC -->
+		<part repeat="0x2000">00</part>
+		<!-- graphics -->
+		<interleave output="32">
+			<part crc="5e1b1e3d" name="wwf_image_rom_l1.u133" map="0001"/>
+			<part crc="5943b3b2" name="wwf_image_rom_l1.u132" map="0010"/>
+			<part crc="0815db22" name="wwf_image_rom_l1.u131" map="0100"/>
+			<part crc="9ee9a145" name="wwf_image_rom_l1.u130" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="c644c2f4" name="wwf_image_rom_l1.u129" map="0001"/>
+			<part crc="fcda4e9a" name="wwf_image_rom_l1.u128" map="0010"/>
+			<part crc="45be7428" name="wwf_image_rom_l1.u127" map="0100"/>
+			<part crc="eaa276a8" name="wwf_image_rom_l1.u126" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a19ebeed" name="wwf_image_rom_l1.u125" map="0001"/>
+			<part crc="dc7d3dbb" name="wwf_image_rom_l1.u124" map="0010"/>
+			<part crc="e0ade56f" name="wwf_image_rom_l1.u123" map="0100"/>
+			<part crc="2800c78d" name="wwf_image_rom_l1.u122" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a28ffcba" name="wwf_image_rom_l1.u121" map="0001"/>
+			<part crc="3a05d371" name="wwf_image_rom_l1.u120" map="0010"/>
+			<part crc="97ffa659" name="wwf_image_rom_l1.u119" map="0100"/>
+			<part crc="46668e97" name="wwf_image_rom_l1.u118" map="1000"/>
+		</interleave>
+	</rom>
+	<nvram index="2" size="49152"/>
+	<cheats size="8" max="16">
+		<cheat name="Buddy Mode">
+			C616 1100 8000 8000
+			C816 1100 8000 8000
+		</cheat>
+		<cheat name="Drain All Energy Now! AI1">
+			6663 1180 0000 FF00
+		</cheat>
+		<cheat name="Drone Meters 'ON'">
+			C616 1100 2000 2000
+			C816 1100 2000 2000
+		</cheat>
+		<cheat name="Enable Shadows">
+			3FF4 1000 0000 FF00
+		</cheat>
+		<cheat name="Finish this Round Now!">
+			25F4 1080 0000 FF00
+			26F4 1080 0000 FF00
+		</cheat>
+		<cheat name="Hyper Speed">
+			C616 1100 4000 4000
+			C816 1100 4000 4000
+		</cheat>
+		<cheat name="Infinite Energy AI1">
+			6663 1100 A300 FF00
+		</cheat>
+		<cheat name="Infinite Select Time">
+			DEB1 1000 0002 00FF
+		</cheat>
+		<cheat name="Infinite Time">
+			25F4 1000 0900 FF00
+			26F4 1000 0900 FF00
+		</cheat>
+		<cheat name="Instant Combo">
+			C616 1100 0200 0200
+			C816 1100 0200 0200
+		</cheat>
+		<cheat name="Move Names 'ON'">
+			C3AF 1000 1000 1000
+			A3B1 1000 1000 1000
+		</cheat>
+		<cheat name="No Block">
+			C616 1100 0100 0100
+			C816 1100 0100 0100
+		</cheat>
+		<cheat name="Opponents at Once: 1">
+			6EB4 1100 0100 FF00
+		</cheat>
+		<cheat name="Opponents at Once: 2">
+			6EB4 1100 0200 FF00
+		</cheat>
+		<cheat name="Opponents at Once: 3">
+			6EB4 1100 0300 FF00
+		</cheat>
+		<cheat name="P1 Drain All Energy Now!">
+			5E63 1180 0000 FF00
+		</cheat>
+		<cheat name="P1 Infinite Energy">
+			5E63 1100 A300 FF00
+		</cheat>
+		<cheat name="P1 Instant Recover">
+			5AE7 1000 0000 FF00
+		</cheat>
+		<cheat name="P1 Invincible vs Punches">
+			30E9 FC0F 00C0 00FF
+		</cheat>
+		<cheat name="P1 Palette: +1">
+			4C63 1100 0100 FF00
+		</cheat>
+		<cheat name="P1 Palette: +2">
+			4C63 1100 0200 FF00
+		</cheat>
+		<cheat name="P1 Palette: +3">
+			4C63 1100 0300 FF00
+		</cheat>
+		<cheat name="P1 Palette: +4">
+			4C63 1100 0400 FF00
+		</cheat>
+		<cheat name="P1 Palette: +5">
+			4C63 1100 0500 FF00
+		</cheat>
+		<cheat name="P1 Palette: +6">
+			4C63 1100 0600 FF00
+		</cheat>
+		<cheat name="P1 Palette: +7">
+			4C63 1100 0700 FF00
+		</cheat>
+		<cheat name="P1 Palette: Default">
+			4C63 1100 0000 FF00
+		</cheat>
+		<cheat name="P2 Drain All Energy Now!">
+			6263 1180 0000 FF00
+		</cheat>
+		<cheat name="P2 Infinite Energy">
+			6263 1100 A300 FF00
+		</cheat>
+		<cheat name="P2 Instant Recover">
+			92E8 1000 0000 FF00
+		</cheat>
+		<cheat name="P2 Palette: +1">
+			4D63 1100 0100 FF00
+		</cheat>
+		<cheat name="P2 Palette: +2">
+			4D63 1100 0200 FF00
+		</cheat>
+		<cheat name="P2 Palette: +3">
+			4D63 1100 0300 FF00
+		</cheat>
+		<cheat name="P2 Palette: +4">
+			4D63 1100 0400 FF00
+		</cheat>
+		<cheat name="P2 Palette: +5">
+			4D63 1100 0500 FF00
+		</cheat>
+		<cheat name="P2 Palette: +6">
+			4D63 1100 0600 FF00
+		</cheat>
+		<cheat name="P2 Palette: +7">
+			4D63 1100 0700 FF00
+		</cheat>
+		<cheat name="P2 Palette: Default">
+			4D63 1100 0000 FF00
+		</cheat>
+		<cheat name="Ring Out Match">
+			C616 1100 0400 0400
+			C816 1100 0400 0400
+		</cheat>
+		<cheat name="Sans Ring">
+			C616 1100 0800 0800
+			C816 1100 0800 0800
+		</cheat>
+	</cheats>
+</misterromdescription>
