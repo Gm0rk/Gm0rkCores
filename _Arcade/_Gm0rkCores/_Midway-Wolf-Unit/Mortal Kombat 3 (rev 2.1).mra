@@ -1,0 +1,120 @@
+<misterromdescription>
+	<name>Mortal Kombat 3 (rev 2.1)</name>
+	<mratimestamp>20261126</mratimestamp>
+	<mameversion>0289</mameversion>
+	<setname>mk3</setname>
+	<year>1994</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Fighter / Versus</category>
+	<rbf>Arcade-Midway-Wolf-Unit</rbf>
+	<remark>2 players</remark>
+	<buttons names="High Punch,Low Punch,High Kick,Low Kick,Block,Run,Start,Coin,Test,Pause" default="Y,B,X,A,R,L,Start,Select,-,-"/>
+	<romstruct>
+0x000000 program ROM (1 MB, 16-bit little endian)
+0x100000 DCS sound ROMs (4 x 1 MB, MAME region bytes 0, 2, 4, ...)
+0x500000 security PIC (8 KB)
+0x502000 graphics (5 x 4 MB slots of MAME's video region: 0 1 2 3 4 -- -- --)
+	</romstruct>
+	<rom index="1">
+		<part>00 00 01 02 03 04 FF FF FF FF 00 00 96 60 01 05 22 62 3F 67 01 00 C0 00 00 00 00 00 8F 0A 00 0B B8 91 01 80 38 86 01 80 66 86 01 80 7E 86 01 80 CE 91 01 80 50 86 01 80 61 7B 01 80 00 00 00 00 81 8A 01 80 53 8A 01 80 3B 8A 01 80 99 8A 01 80 6B 8A 01 80 B1 8A 01 80 61 7B 01 80 00 00 00 00 3B 8B 01 80 F7 8A 01 80 DF 8A 01 80 53 8B 01 80 23 8B 01 80 0D 8B 01 80 61 7B 01 80 00 00 00 00 97 89 01 80 DD 89 01 80 81 89 01 80 AF 89 01 80 C5 89 01 80 69 89 01 80 61 7B 01 80 00 00 00 00 73 88 01 80 89 88 01 80 25 89 01 80 A1 88 01 80 B7 88 01 80 3B 89 01 80 61 7B 01 80 00 00 00 00 99 8B 01 80 6B 8B 01 80 DE 8B 01 80 81 8B 01 80 22 8C 01 80 50 8C 01 80 61 7B 01 80 00 00 00 00 2D 88 01 80 17 88 01 80 5B 88 01 80 F2 87 01 80 AE 87 01 80 C4 87 01 80 61 7B 01 80 00 00 00 00 22 87 01 80 0C 87 01 80 C4 86 01 80 DC 86 01 80 AE 86 01 80 F4 86 01 80 61 7B 01 80 00 00 00 00 96 87 01 80 3A 87 01 80 80 87 01 80 68 87 01 80 96 86 01 80 50 87 01 80 61 7B 01 80 00 00 00 00 AE 8D 01 80 80 8D 01 80 50 8D 01 80 68 8D 01 80 3A 8D 01 80 96 8D 01 80 61 7B 01 80 00 00 00 00 5C 91 01 80 00 91 01 80 16 91 01 80 80 90 01 80 E8 90 01 80 44 91 01 80 61 7B 01 80 00 00 00 00 98 8C 01 80 80 8C 01 80 AE 8C 01 80 68 8C 01 80 0A 8D 01 80 DC 8C 01 80 61 7B 01 80 00 00 00 00 E2 8E 01 80 F8 8E 01 80 0E 90 01 80 CA 8E 01 80 26 8F 01 80 D0 90 01 80 61 7B 01 80 00 00 00 00 26 8E 01 80 0E 8E 01 80 3C 8E 01 80 F6 8D 01 80 DE 8D 01 80 6A 8E 01 80 61 7B 01 80 00 00 00 00 73 85 01 80 5B 85 01 80 34 85 01 80 00 00 00 00 8B 85 01 80 A1 85 01 80 61 7B 01 80 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 11 AB 02 58 1C 00 00 00</part>
+	</rom>
+	<rom index="0" zip="mk3.zip" md5="f46482dbdb7cc0c2c5ce9068fa88917e">
+		<!-- program ROM -->
+		<interleave output="16">
+			<part crc="9e344401" name="mk321u54.bin" map="01"/>
+			<part crc="64d34776" name="mk321u63.bin" map="10"/>
+		</interleave>
+		<!-- DCS sound ROMs -->
+		<part crc="5273436f" name="l1_mortal_kombat_3_u2_music_spch.u2"/>
+		<part crc="856fe411" name="l1_mortal_kombat_3_u3_music_spch.u3"/>
+		<part crc="428a406f" name="l1_mortal_kombat_3_u4_music_spch.u4"/>
+		<part crc="3b98a09f" name="l1_mortal_kombat_3_u5_music_spch.u5"/>
+		<!-- security PIC -->
+		<part repeat="0x2000">00</part>
+		<!-- graphics -->
+		<interleave output="32">
+			<part crc="79b94667" name="l1_mortal_kombat_3_u133_game_rom.u133" map="0001"/>
+			<part crc="13e95228" name="l1_mortal_kombat_3_u132_game_rom.u132" map="0010"/>
+			<part crc="41001e30" name="l1_mortal_kombat_3_u131_game_rom.u131" map="0100"/>
+			<part crc="49379dd7" name="l1_mortal_kombat_3_u130_game_rom.u130" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="a8b41803" name="l1_mortal_kombat_3_u129_game_rom.u129" map="0001"/>
+			<part crc="b410d72f" name="l1_mortal_kombat_3_u128_game_rom.u128" map="0010"/>
+			<part crc="bd985be7" name="l1_mortal_kombat_3_u127_game_rom.u127" map="0100"/>
+			<part crc="e7c32cf4" name="l1_mortal_kombat_3_u126_game_rom.u126" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="9a52227e" name="l1_mortal_kombat_3_u125_game_rom.u125" map="0001"/>
+			<part crc="5c750ebc" name="l1_mortal_kombat_3_u124_game_rom.u124" map="0010"/>
+			<part crc="f0ab88a8" name="l1_mortal_kombat_3_u123_game_rom.u123" map="0100"/>
+			<part crc="9b87cdac" name="l1_mortal_kombat_3_u122_game_rom.u122" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="b6c6296a" name="l1_mortal_kombat_3_u121_game_rom.u121" map="0001"/>
+			<part crc="8d1ccc3b" name="l1_mortal_kombat_3_u120_game_rom.u120" map="0010"/>
+			<part crc="63215b59" name="l1_mortal_kombat_3_u119_game_rom.u119" map="0100"/>
+			<part crc="8b681e34" name="l1_mortal_kombat_3_u118_game_rom.u118" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="1ab20377" name="l1_mortal_kombat_3_u117_game_rom.u117" map="0001"/>
+			<part crc="ba246ad0" name="l1_mortal_kombat_3_u116_game_rom.u116" map="0010"/>
+			<part crc="3ee8b124" name="l1_mortal_kombat_3_u115_game_rom.u115" map="0100"/>
+			<part crc="a8d99922" name="l1_mortal_kombat_3_u114_game_rom.u114" map="1000"/>
+		</interleave>
+		<part repeat="0x200000">00</part>
+	</rom>
+	<nvram index="2" size="49152"/>
+	<cheats size="8" max="16">
+		<cheat name="Always Play Galaxian">
+			2962 1000 6400 FF00
+		</cheat>
+		<cheat name="Animality Needs No Mercy">
+			3282 F90F 0003 FFFF
+			C292 F90F 01C0 FFFF
+			7293 F90F 0003 FFFF
+		</cheat>
+		<cheat name="Bloody Floors">
+			AA6A FA0F 0001 FFFF
+		</cheat>
+		<cheat name="CPU Won't Avoid or Block">
+			0F81 FA0F 18C0 FFFF
+		</cheat>
+		<cheat name="Hit Anywhere (P1 + P2)">
+			C45C FA0F 04C0 FFFF
+		</cheat>
+		<cheat name="Infinite Time">
+			550B F80F D7C0 FFFF
+			560B F80F 0003 FFFF
+		</cheat>
+		<cheat name="No Friend/Babality Limits">
+			4562 1000 0000 FFFF
+			4662 1000 0000 FFFF
+		</cheat>
+		<cheat name="P1 Drain all Energy Now!">
+			A460 1080 0000 FF00
+		</cheat>
+		<cheat name="P1 Infinite Energy">
+			A460 1000 A600 FF00
+		</cheat>
+		<cheat name="P1 Infinite Turbo">
+			A560 1000 3000 FF00
+		</cheat>
+		<cheat name="P2 Drain all Energy Now!">
+			5F61 1080 0000 FF00
+		</cheat>
+		<cheat name="P2 Infinite Energy">
+			5F61 1000 A600 FF00
+		</cheat>
+		<cheat name="P2 Infinite Turbo">
+			6061 1000 3000 FF00
+		</cheat>
+		<cheat name="Smoke on Character Select">
+			5FEE F90F 1EC0 FFFF
+			ECF3 F90F 0003 FFFF
+		</cheat>
+		<cheat name="Smoke's Flipping Portrait">
+			44EB F90F 0003 FFFF
+		</cheat>
+	</cheats>
+</misterromdescription>
