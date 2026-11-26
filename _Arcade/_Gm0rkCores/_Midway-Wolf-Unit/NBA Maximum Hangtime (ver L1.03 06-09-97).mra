@@ -1,0 +1,192 @@
+<misterromdescription>
+	<name>NBA Maximum Hangtime (ver L1.03 06/09/97)</name>
+	<mratimestamp>20261118</mratimestamp>
+	<mameversion>0289</mameversion>
+	<setname>nbamht</setname>
+	<year>1996</year>
+	<manufacturer>Midway</manufacturer>
+	<category>Sports / Basketball</category>
+	<rbf>Arcade-Midway-Wolf-Unit</rbf>
+	<remark>4 players</remark>
+	<buttons names="Turbo,Shoot / Block,Pass / Steal,Start,Coin,Test,Pause" default="R,B,A,Start,Select,-,-"/>
+	<romstruct>
+0x000000 program ROM (1 MB, 16-bit little endian)
+0x100000 DCS sound ROMs (4 x 1 MB, MAME region bytes 0, 2, 4, ...)
+0x500000 security PIC (8 KB)
+0x502000 graphics (5 x 4 MB slots of MAME's video region: 0 1 2 3 -- 5 -- --)
+	</romstruct>
+	<rom index="1">
+		<part>04 00 01 02 03 FF 04 FF FF FF 00 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 92 D2 00 ED 13 03 00 00 00 00 00 00</part>
+	</rom>
+	<rom index="0" zip="nbamht.zip|nbahangt.zip" md5="2f4d6c3b190bcc93e2ff9c34bb921256" type="merged">
+		<!-- program ROM -->
+		<interleave output="16">
+			<part crc="21b0d9e1" name="l1.03_maximum_hangtime_u54_l_version.u54" map="01"/>
+			<part crc="c6fdbb97" name="l1.03_maximum_hangtime_u63_l_version.u63" map="10"/>
+		</interleave>
+		<!-- DCS sound ROMs -->
+		<part crc="3f0b0d0a" name="l1.0_nba_hangtime_u_2_music_spch.u2"/>
+		<part crc="ec1db988" name="l1.0_nba_hangtime_u_3_music_spch.u3"/>
+		<part crc="c7f847a3" name="l1.0_nba_hangtime_u_4_music_spch.u4"/>
+		<part crc="ef19316a" name="l1.0_nba_hangtime_u_5_music_spch.u5"/>
+		<!-- security PIC -->
+		<part crc="0e642b39" name="459_nba_hang_time_u64.u64"/>
+		<!-- graphics -->
+		<interleave output="32">
+			<part crc="3163feed" name="l1.0_nba_hangtime_u_133_image_rom.u133" map="0001"/>
+			<part crc="428eaf44" name="l1.0_nba_hangtime_u_132_image_rom.u132" map="0010"/>
+			<part crc="5f7c5111" name="l1.0_nba_hangtime_u_131_image_rom.u131" map="0100"/>
+			<part crc="c7c0c514" name="l1.0_nba_hangtime_u_130_image_rom.u130" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="b3d0daa0" name="l1.0_nba_hangtime_u_129_image_rom.u129" map="0001"/>
+			<part crc="3704ee69" name="l1.0_nba_hangtime_u_128_image_rom.u128" map="0010"/>
+			<part crc="4ea64d5a" name="l1.0_nba_hangtime_u_127_image_rom.u127" map="0100"/>
+			<part crc="0c5c19b7" name="l1.0_nba_hangtime_u_126_image_rom.u126" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="46c43d67" name="l1.0_nba_hangtime_u_125_image_rom.u125" map="0001"/>
+			<part crc="ed495156" name="l1.0_nba_hangtime_u_124_image_rom.u124" map="0010"/>
+			<part crc="b48aa5da" name="l1.0_nba_hangtime_u_123_image_rom.u123" map="0100"/>
+			<part crc="b18cd181" name="l1.0_nba_hangtime_u_122_image_rom.u122" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="5acb267a" name="l1.0_nba_hangtime_u_121_image_rom.u121" map="0001"/>
+			<part crc="28e05f86" name="l1.0_nba_hangtime_u_120_image_rom.u120" map="0010"/>
+			<part crc="b4f604ea" name="l1.0_nba_hangtime_u_119_image_rom.u119" map="0100"/>
+			<part crc="a257b973" name="l1.0_nba_hangtime_u_118_image_rom.u118" map="1000"/>
+		</interleave>
+		<interleave output="32">
+			<part crc="d712a779" name="l1.0_nba_hangtime_u_113_image_rom.u113" map="0001"/>
+			<part crc="644e1bca" name="l1.0_nba_hangtime_u_112_image_rom.u112" map="0010"/>
+			<part crc="10d3b768" name="l1.0_nba_hangtime_u_111_image_rom.u111" map="0100"/>
+			<part crc="8575aeb2" name="l1.0_nba_hangtime_u_110_image_rom.u110" map="1000"/>
+		</interleave>
+	</rom>
+	<nvram index="2" size="49152"/>
+	<cheats size="8" max="16">
+		<cheat name="Finish this Quarter Now!">
+			AA37 1180 0001 00FF
+			AB37 1180 0000 FFFF
+		</cheat>
+		<cheat name="Get 'Big Head' Now!">
+			4841 1180 0400 0400
+		</cheat>
+		<cheat name="Get 'Drone Bighead' Now!">
+			4841 1180 1000 1000
+		</cheat>
+		<cheat name="Get 'Hide Attribs' Now!">
+			4841 1180 0800 0800
+		</cheat>
+		<cheat name="Get 'No Tag Arrow' Now!">
+			4841 1180 0100 0100
+		</cheat>
+		<cheat name="Get 'Smarter Drone' Now!">
+			4841 1180 4000 4000
+		</cheat>
+		<cheat name="Get 'Stealth Turbo' Now!">
+			4841 1180 0200 0200
+		</cheat>
+		<cheat name="Get 'Super Rebound' Now!">
+			4841 1180 2000 2000
+		</cheat>
+		<cheat name="Get Maximum Block Now!">
+			CD40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Dunks Now!">
+			CB40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Height Now!">
+			CE40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Power Now!">
+			C940 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Shoot Now!">
+			CA40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Speed Now!">
+			C840 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Steal Now!">
+			CC40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Get Maximum Weight Now!">
+			CF40 1180 0A00 FF00
+		</cheat>
+		<cheat name="Infinite Edit Time">
+			4240 1100 0100 FF00
+			4340 1100 3C00 FF00
+		</cheat>
+		<cheat name="Infinite Quarter Time">
+			AA37 1100 000A 00FF
+			AB37 1100 0503 FFFF
+		</cheat>
+		<cheat name="Infinite Shot Time">
+			A737 1100 0A00 FF00
+		</cheat>
+		<cheat name="Lose 'Big Head' Now!">
+			4841 1180 0000 0400
+		</cheat>
+		<cheat name="Lose 'Drone Bighead' Now!">
+			4841 1180 0000 1000
+		</cheat>
+		<cheat name="Lose 'Hide Attribs' Now!">
+			4841 1180 0000 0800
+		</cheat>
+		<cheat name="Lose 'No Tag Arrow' Now!">
+			4841 1180 0000 0100
+		</cheat>
+		<cheat name="Lose 'Smarter Drone' Now!">
+			4841 1180 0000 4000
+		</cheat>
+		<cheat name="Lose 'Stealth Turbo' Now!">
+			4841 1180 0000 0200
+		</cheat>
+		<cheat name="Lose 'Super Rebound' Now!">
+			4841 1180 0000 2000
+		</cheat>
+		<cheat name="No Shot Time Left Now!">
+			A737 1180 0000 FF00
+		</cheat>
+		<cheat name="On Fire: P1 + P2 Teams">
+			DC36 1100 0F00 FF00
+			E536 1100 0400 FF00
+			E936 1100 FF00 FFFF
+		</cheat>
+		<cheat name="On Fire: P1 Team">
+			DC36 1100 0300 FF00
+			E536 1100 0400 FF00
+			E636 1100 2000 FFFF
+		</cheat>
+		<cheat name="On Fire: P2 Team">
+			DC36 1100 0C00 FF00
+			E536 1100 0400 FF00
+			E636 1100 0000 FFFF
+		</cheat>
+		<cheat name="P1 Score always 0">
+			BE37 1100 0000 FF00
+		</cheat>
+		<cheat name="P1 Score always 150">
+			BE37 1100 9600 FF00
+		</cheat>
+		<cheat name="P1 Set score = 0 Now!">
+			BE37 1180 0000 FF00
+		</cheat>
+		<cheat name="P1 Set score = 150 Now!">
+			BE37 1180 9600 FF00
+		</cheat>
+		<cheat name="P2 Score always = 0">
+			BF37 1100 0000 FF00
+		</cheat>
+		<cheat name="P2 Score always = 150">
+			BF37 1100 9600 FF00
+		</cheat>
+		<cheat name="P2 Set score = 0 Now!">
+			BF37 1180 0000 FF00
+		</cheat>
+		<cheat name="P2 Set score = 150 Now!">
+			BF37 1180 9600 FF00
+		</cheat>
+	</cheats>
+</misterromdescription>
