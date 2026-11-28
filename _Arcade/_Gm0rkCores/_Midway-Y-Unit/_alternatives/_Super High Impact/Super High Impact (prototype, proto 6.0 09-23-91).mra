@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>Super High Impact (prototype, proto 6.0 09/23/91)</name>
-	<mratimestamp>20261101</mratimestamp>
+	<mratimestamp>20261115</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>shimpactp6</setname>
 	<year>1991</year>
@@ -26,12 +26,13 @@
 0x900000 sound CPU ROM (MAME region from 0x10000)
 	</romstruct>
 	<rom index="1">
-		<!-- game id; no hidden menu (tools/yunit_fmoves.py) -->
+		<!-- game id; Attract Sound: 2 program patches; no hidden menu (tools/yunit_fmoves.py) -->
 		<part>
 		04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		00 00 00 00 00 00 00 00 02 00
+		00 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		EF 6F 06 03 00 56 20 18 5F 70 06 03 00 56 20 18
 		</part>
 	</rom>
 	<rom index="0" zip="shimpactp6.zip|shimpact.zip" md5="3cc00cf60125e8f43228476caca57036" type="merged">

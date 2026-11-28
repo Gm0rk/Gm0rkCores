@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>Super High Impact (rev LA2 10/22/91)</name>
-	<mratimestamp>20261101</mratimestamp>
+	<mratimestamp>20261115</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>shimpact</setname>
 	<year>1991</year>
@@ -26,12 +26,13 @@
 0x900000 sound CPU ROM (MAME region from 0x10000)
 	</romstruct>
 	<rom index="1">
-		<!-- game id; game state 01051360 (tools/yunit_fmoves.py) -->
+		<!-- game id; Attract Sound: 2 program patches; game state 01051360 (tools/yunit_fmoves.py) -->
 		<part>
 		04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		36 51 10 00 DC 51 10 00 01 00
+		36 51 10 00 DC 51 10 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		87 6D 06 03 00 56 20 18 4B 6E 06 03 00 56 20 18
 		</part>
 	</rom>
 	<rom index="0" zip="shimpact.zip" md5="5efa8a54f66fcb772e350ce1dc444163" type="merged">
