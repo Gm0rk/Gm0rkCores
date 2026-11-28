@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>NBA Jam Tournament Edition (Nani Edition, rev 5.2 8/11/95, prototype)</name>
-	<mratimestamp>20261119</mratimestamp>
+	<mratimestamp>20261127</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>nbajamten</setname>
 	<year>1995</year>
@@ -27,10 +27,10 @@ rom index 3 (SDRAM 0xD00000):
 		00 20 03 00 00 00 03 00 10 00 03 00 00 00 03 00 20 00 03 00 00 00 03 00 00 40 03 00 00 00 03 00
 		00 40 03 00 00 00 03 80
 		</part>
-		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010ED7A0, FF878060 B5C1-&gt;09C0, FF878070 01A0-&gt;level, FF878080 CB01-&gt;C001, FF8AC3A0 C913-&gt;C912 -->
+		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010ED7A0, human players 010ED810, FF878060 B5C1-&gt;09C0, FF878070 01A0-&gt;level, FF878080 CB01-&gt;C001, FF8AC3A0 C913-&gt;C912 -->
 		<part repeat="940">00</part>
 		<part>
-		7A ED 10 00 00 00 00 00 00 00 00 00 06 78 F8 0F C0 09 00 00 07 78 F8 1F 00 00 00 00 08 78 F8 0F
+		7A ED 10 00 00 00 00 00 81 ED 10 00 06 78 F8 0F C0 09 00 00 07 78 F8 1F 00 00 00 00 08 78 F8 0F
 		01 C0 00 00 3A AC F8 0F 12 C9 00 00
 		</part>
 	</rom>

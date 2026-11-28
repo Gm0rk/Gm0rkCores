@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>NBA Jam Tournament Edition (SE rev 5.02, hack)</name>
-	<mratimestamp>20261119</mratimestamp>
+	<mratimestamp>20261127</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>nbajam05</setname>
 	<year>1994</year>
@@ -27,10 +27,10 @@ rom index 3 (SDRAM 0xD00000):
 		00 20 03 00 00 00 03 00 10 00 03 00 00 00 03 00 20 00 03 00 00 00 03 00 00 40 03 00 00 00 03 00
 		00 40 03 00 00 00 03 80
 		</part>
-		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010EA1D0, FF88CE60 B5C1-&gt;09C0, FF88CE70 01A0-&gt;level, FF88CE80 CB01-&gt;C001, FF8C0720 C913-&gt;C912 -->
+		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010EA1D0, human players 010EE230, FF88CE60 B5C1-&gt;09C0, FF88CE70 01A0-&gt;level, FF88CE80 CB01-&gt;C001, FF8C0720 C913-&gt;C912 -->
 		<part repeat="940">00</part>
 		<part>
-		1D EA 10 00 00 00 00 00 00 00 00 00 E6 8C F8 0F C0 09 00 00 E7 8C F8 1F 00 00 00 00 E8 8C F8 0F
+		1D EA 10 00 00 00 00 00 23 EE 10 00 E6 8C F8 0F C0 09 00 00 E7 8C F8 1F 00 00 00 00 E8 8C F8 0F
 		01 C0 00 00 72 C0 F8 0F 12 C9 00 00
 		</part>
 	</rom>
