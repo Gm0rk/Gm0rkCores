@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>NBA Jam (rev 3.01 4/07/93)</name>
-	<mratimestamp>20261119</mratimestamp>
+	<mratimestamp>20261127</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>nbajam</setname>
 	<year>1993</year>
@@ -27,10 +27,10 @@ rom index 3 (SDRAM 0xD00000):
 		00 20 03 00 00 00 03 00 10 00 03 00 00 00 03 00 20 00 03 00 00 00 03 00 00 40 03 00 00 00 03 00
 		00 40 03 00 00 00 03 80
 		</part>
-		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010E52D0, FF859CE0 B5C1-&gt;09C0, FF859CF0 01A0-&gt;level, FF859D00 CB01-&gt;C001, FF8877E0 C913-&gt;C912 -->
+		<!-- Fixed AI Difficulty (tools/tunit_nbaai.py): hard word 010E52D0, human players 010E5340, FF859CE0 B5C1-&gt;09C0, FF859CF0 01A0-&gt;level, FF859D00 CB01-&gt;C001, FF8877E0 C913-&gt;C912 -->
 		<part repeat="940">00</part>
 		<part>
-		2D E5 10 00 00 00 00 00 00 00 00 00 CE 59 F8 0F C0 09 00 00 CF 59 F8 1F 00 00 00 00 D0 59 F8 0F
+		2D E5 10 00 00 00 00 00 34 E5 10 00 CE 59 F8 0F C0 09 00 00 CF 59 F8 1F 00 00 00 00 D0 59 F8 0F
 		01 C0 00 00 7E 87 F8 0F 12 C9 00 00
 		</part>
 	</rom>
