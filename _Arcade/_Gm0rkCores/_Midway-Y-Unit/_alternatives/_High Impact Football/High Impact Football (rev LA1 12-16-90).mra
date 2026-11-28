@@ -1,6 +1,6 @@
 <misterromdescription>
 	<name>High Impact Football (rev LA1 12/16/90)</name>
-	<mratimestamp>20261101</mratimestamp>
+	<mratimestamp>20261115</mratimestamp>
 	<mameversion>0289</mameversion>
 	<setname>hiimpact1</setname>
 	<year>1990</year>
@@ -25,12 +25,13 @@
 0x900000 sound CPU ROM (MAME region from 0x10000)
 	</romstruct>
 	<rom index="1">
-		<!-- game id; game state 010528A0 (tools/yunit_fmoves.py) -->
+		<!-- game id; Attract Sound: 2 program patches; game state 010528A0 (tools/yunit_fmoves.py) -->
 		<part>
 		03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 		00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
-		8A 52 10 00 00 00 00 00 01 00
+		8A 52 10 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+		C6 62 06 03 00 56 20 18 48 63 06 03 00 56 20 18
 		</part>
 	</rom>
 	<rom index="0" zip="hiimpact1.zip|hiimpact.zip" md5="634e5d77cf3cc6d040069e44b1fa54c1" type="merged">
